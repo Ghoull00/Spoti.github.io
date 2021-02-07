@@ -1,0 +1,32 @@
+#body{
+    border: 2px solid black;
+}
+.leftSide{
+    display: inline-block;
+    min-width: 50%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.rightSide{
+    display: inline-block;
+}
+p{
+    display: inline;
+}
+table, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 2%;
+}
+td{
+    border-right: 2px solid black;
+}
+body{
+    margin: 5%;
+}
+html{
+    background-color: gray;
+}
+button, input{
+    border: 2px solid black;
+}
