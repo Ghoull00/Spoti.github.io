@@ -1,0 +1,15 @@
+client_id = "712836751b7e4215bf5bedd7dfe7aae2"
+client_secret = "ff5cc0d6920b44d591b1b0faed37e09c"
+redirect_uri = "https%3A%2F%2Fghoull00.github.io%2FSpoti.github.io%2F"
+https://accounts.spotify.com/authorize?client_id=712836751b7e4215bf5bedd7dfe7aae2&scope=playlist-read-private&response_type=code&redirect_uri=https%3A%2F%2Fghoull00.github.io%2FSpoti.github.io%2F
+
+id_secret = "712836751b7e4215bf5bedd7dfe7aae2:ff5cc0d6920b44d591b1b0faed37e09c"
+Base64_encoding = "NzEyODM2NzUxYjdlNDIxNWJmNWJlZGQ3ZGZlN2FhZTI6ZmY1Y2MwZDY5MjBiNDRkNTkxYjFiMGZhZWQzN2UwOWM="
+curl -H "Authorization: Basic NzEyODM2NzUxYjdlNDIxNWJmNWJlZGQ3ZGZlN2FhZTI6ZmY1Y2MwZDY5MjBiNDRkNTkxYjFiMGZhZWQzN2UwOWM=" -d grant_type=authorization_code -d code=AQDKXywUWVTH0tY9pmN5CWf8S3Ig5Owx5LZ-INjl9XtKxns3fYWlgJzp84h1D4ClgcOBn3-aci8pksUS2WLxX1VUXbMiiCwpU23iU17L9amhWbO5ZFkEC3QJz85HFLvI3wwchd-2FzFW6lsNVy10FiplFwbmVAagPsAB9o-YMbK9crnhUbhGhwst1dn1y57oVui2UsCh3-ch0PQsMtTtW6kBKSLpZg -d redirect_uri=https%3A%2F%2Fghoull00.github.io%2FSpoti.github.io%2F https://accounts.spotify.com/api/token
+
+token = "BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw"
+{"access_token":"BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw","token_type":"Bearer","expires_in":3600,"refresh_token":"AQDmYSMtWSvHPc9kE1bobQavK1gPu-2Gr1z8OnKVLez7UfzLDDq_Mewi0AZ1lNTZTvaTWpgPNvzhV1cq53-kAag8tvPDzPXsi5GbsXhtK7MJEYPjZUrB8mEO9OiwpmIiXJI","scope":"playlist-read-private"}
+
+
+commandprompt
+curl -H "Authorization: Bearer BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw" https://api.spotify.com/v1/me

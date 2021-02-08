@@ -1,13 +1,1 @@
-app.get('/login', function(req, res) {
-    var scopes = 'user-read-private user-read-email';
-    res.redirect('https://accounts.spotify.com/authorize' +
-    '?response_type=code' +
-    '&client_id=' + my_client_id +
-    (scopes ? '&scope=' + encodeURIComponent(scopes) : '') +
-    '&redirect_uri=' + encodeURIComponent(redirect_uri));
-    });
-
-
-fetch("https://api.spotify.com/artist/0OdUWJ0sBjDrqHygGUXeCF")
-.then(data => data.json())
-.then(data => console.log(data))
+const token = "BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw"
