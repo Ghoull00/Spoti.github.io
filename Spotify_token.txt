@@ -18,5 +18,6 @@ curl -H "Authorization: Basic NzEyODM2NzUxYjdlNDIxNWJmNWJlZGQ3ZGZlN2FhZTI6ZmY1Y2
 
 {"access_token":"BQAvG04wTU32Q2Dexq78IussUu1DcYujOqvYxniO3csr5ZhgDgJCvPiBnNx3-Lajn_-xUtLljv-iSEgQUnHq48Sd9pFNQiCOEIuOtIAU8T3-4nl1GFOudvtr3YUo9qGLh7jFEGI_6uPwJWyWnhyvS7pbOA","token_type":"Bearer","expires_in":3600,"scope":"playlist-read-private"}
 
+
 commandprompt
-curl -H "Authorization: Bearer BQAUnyegjAWaIHxnR91qXG6czDmPEkJ2x_UAoopqsZD7StKlOiAsIUXZXHYqzLuoSrdq0aDaiodJHPxx_uuGvVntzmNYCX5DpKAq1YHk92f4_50SyyeTWbYKSqDi274CIMf2M6VdEuMltEVO7YVoQJGdVA" https://api.spotify.com/v1/artists/4jpaXieuls7LVzG1uma5Rs
+curl -H "Authorization: Bearer BQD6SUXdLCjfICzF8QuW6czLp6yqrKTSDY3KO5-_JqJp1_GWrVD8Z8dxhwNnm8hGGr4fxDzAuTJE89gABgFtVi45Gdtm9bW67ug8f77nQCfCUySJR-IpP6HzE29uDssyoqd-2L7Ti7vA-ArfAZAvodg_Ag" https://api.spotify.com/v1/artists/4jpaXieuls7LVzG1uma5Rs
