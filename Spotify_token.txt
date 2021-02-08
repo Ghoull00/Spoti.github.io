@@ -10,6 +10,13 @@ curl -H "Authorization: Basic NzEyODM2NzUxYjdlNDIxNWJmNWJlZGQ3ZGZlN2FhZTI6ZmY1Y2
 token = "BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw"
 {"access_token":"BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw","token_type":"Bearer","expires_in":3600,"refresh_token":"AQDmYSMtWSvHPc9kE1bobQavK1gPu-2Gr1z8OnKVLez7UfzLDDq_Mewi0AZ1lNTZTvaTWpgPNvzhV1cq53-kAag8tvPDzPXsi5GbsXhtK7MJEYPjZUrB8mEO9OiwpmIiXJI","scope":"playlist-read-private"}
 
+https://accounts.spotify.com/api/token
+
+refresh_token
+
+curl -H "Authorization: Basic NzEyODM2NzUxYjdlNDIxNWJmNWJlZGQ3ZGZlN2FhZTI6ZmY1Y2MwZDY5MjBiNDRkNTkxYjFiMGZhZWQzN2UwOWM=" -d grant_type=refresh_token -d refresh_token=AQDmYSMtWSvHPc9kE1bobQavK1gPu-2Gr1z8OnKVLez7UfzLDDq_Mewi0AZ1lNTZTvaTWpgPNvzhV1cq53-kAag8tvPDzPXsi5GbsXhtK7MJEYPjZUrB8mEO9OiwpmIiXJI https://accounts.spotify.com/api/token
+
+{"access_token":"BQAvG04wTU32Q2Dexq78IussUu1DcYujOqvYxniO3csr5ZhgDgJCvPiBnNx3-Lajn_-xUtLljv-iSEgQUnHq48Sd9pFNQiCOEIuOtIAU8T3-4nl1GFOudvtr3YUo9qGLh7jFEGI_6uPwJWyWnhyvS7pbOA","token_type":"Bearer","expires_in":3600,"scope":"playlist-read-private"}
 
 commandprompt
-curl -H "Authorization: Bearer BQBO9atsclNGsv4_X9yt3ADrIEGaB7AbkbnXoNIjjjDs3EYQIeI4jX1rhpRzJEiEvQnwH87RIj7hhX25bRdkmVxfVkBDNTpf5wsHiAQX02LtIKo_fA5fWj7cDCmYl0Ctz6F4kc-TaIDoFHXIod4b6rNDPw" https://api.spotify.com/v1/me
+curl -H "Authorization: Bearer BQAUnyegjAWaIHxnR91qXG6czDmPEkJ2x_UAoopqsZD7StKlOiAsIUXZXHYqzLuoSrdq0aDaiodJHPxx_uuGvVntzmNYCX5DpKAq1YHk92f4_50SyyeTWbYKSqDi274CIMf2M6VdEuMltEVO7YVoQJGdVA" https://api.spotify.com/v1/artists/4jpaXieuls7LVzG1uma5Rs
